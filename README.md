@@ -1,4 +1,4 @@
-PHPUnit-skeleton-for-progect
+PHPUnit-skeleton-for-project
 ============================
 
 Скелет файловой структуры и пример организцации класса для тестирования с помощью PHPUnit

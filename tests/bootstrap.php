@@ -7,7 +7,10 @@
  */
 
 // bitrix/modules/main/include.php with no authorizing and Agents execution
-require_once "main_include_no_permission.php";
+define("NOT_CHECK_PERMISSIONS", true);
+define("NO_AGENT_CHECK", true);
+$_SERVER["DOCUMENT_ROOT"] = __DIR__ . '/../..';
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 
 function initBitrixCore()
 {

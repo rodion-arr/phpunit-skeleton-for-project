@@ -9,6 +9,7 @@
 // bitrix/modules/main/include.php with no authorizing and Agents execution
 define("NOT_CHECK_PERMISSIONS", true);
 define("NO_AGENT_CHECK", true);
+$GLOBALS["DBType"] = 'mysql';
 $_SERVER["DOCUMENT_ROOT"] = __DIR__ . '/../..';
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 
